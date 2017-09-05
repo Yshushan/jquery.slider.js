@@ -3,6 +3,9 @@
 		position: relative;
 	}
 	.slider-nav{
+		display: -webkit-flex;
+		display: flex;
+		justify-content: center;
 		position: absolute;
 		list-style: none;
 		margin: 0;
@@ -10,31 +13,23 @@
 		text-align: center;
 	}
 	.slider-nav.bottom {
-		display: flex;
-		justify-content: center;
 		left: 0;
 		right: 0;
 		bottom: 0;
 	}
 	.slider-nav.right {
-		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		top: 0;
 		right: 0;
 		bottom: 0;
 	}
 	.slider-nav.top {
-		display: flex;
-		justify-content: center;
 		top: 0;
 		right: 0;
 		left: 0;
 	}
 	.slider-nav.left {
-		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		top: 0;
 		bottom: 0;
 		left: 0;
